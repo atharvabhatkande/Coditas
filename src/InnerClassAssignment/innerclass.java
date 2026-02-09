@@ -19,7 +19,7 @@ class Smartcamera extends SmartDevice{
     }
 }
 
-public class innerclass {
+public class    innerclass {
 
     public static void main(String [] args){
         Smartcamera sc=new Smartcamera();
