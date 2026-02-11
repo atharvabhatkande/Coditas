@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b477d00-f5dd-4e80-9046-608dfcb26349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Threads/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/PingPong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ReentrantExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Thread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Trigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/UnfairLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +46,7 @@
     "Application.ReentrantExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Trigger.executor": "Run",
+    "Application.UnfairLock.executor": "Run",
     "Application.innerclass.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,7 +88,7 @@
       <workItem from="1770650190674" duration="3894000" />
       <workItem from="1770657695231" duration="896000" />
       <workItem from="1770735013533" duration="6904000" />
-      <workItem from="1770814451499" duration="6547000" />
+      <workItem from="1770814451499" duration="8214000" />
     </task>
     <servers />
   </component>
