@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b477d00-f5dd-4e80-9046-608dfcb26349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InnerClassAssignment/innerclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InnerClassAssignment/innerclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/PingPong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ReentrantExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Trigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +48,11 @@
     "Application.Inheritance.executor": "Run",
     "Application.Interfaces.executor": "Run",
     "Application.MapExample.executor": "Run",
+    "Application.MyThread.executor": "Run",
     "Application.OOPS.executor": "Run",
+    "Application.ReentrantExample.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Trigger.executor": "Run",
     "Application.innerclass.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,19 +72,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Coditas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Coditas" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,6 +92,9 @@
       <workItem from="1770303068077" duration="19712000" />
       <workItem from="1770554599055" duration="10887000" />
       <workItem from="1770650190674" duration="3894000" />
+      <workItem from="1770657695231" duration="896000" />
+      <workItem from="1770735013533" duration="6904000" />
+      <workItem from="1770814451499" duration="6547000" />
     </task>
     <servers />
   </component>
