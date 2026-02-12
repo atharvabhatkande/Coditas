@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b477d00-f5dd-4e80-9046-608dfcb26349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Threads/UnfairLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/RaceCondition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +38,14 @@
     "Application.Arraylistexample.executor": "Run",
     "Application.CollectionEcample.executor": "Run",
     "Application.ComparatorExample.executor": "Run",
+    "Application.Deadlock.executor": "Run",
     "Application.Enums.executor": "Run",
     "Application.Inheritance.executor": "Run",
     "Application.Interfaces.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MyThread.executor": "Run",
     "Application.OOPS.executor": "Run",
+    "Application.RaceCondition.executor": "Run",
     "Application.ReentrantExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Trigger.executor": "Run",
@@ -88,7 +91,8 @@
       <workItem from="1770650190674" duration="3894000" />
       <workItem from="1770657695231" duration="896000" />
       <workItem from="1770735013533" duration="6904000" />
-      <workItem from="1770814451499" duration="8214000" />
+      <workItem from="1770814451499" duration="8460000" />
+      <workItem from="1770906809931" duration="6119000" />
     </task>
     <servers />
   </component>
