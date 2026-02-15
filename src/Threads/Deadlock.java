@@ -54,7 +54,8 @@ public class Deadlock{
         t1.start();
         t2.start();
     }
-}*/
+}*//*
+
 public class PenPaperDeadock {
     public static void main(String[] args) throws InterruptedException {
         Object lock1 = new Object();
@@ -106,3 +107,4 @@ public class PenPaperDeadock {
     }
 }
 
+*/

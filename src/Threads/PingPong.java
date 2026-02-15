@@ -4,17 +4,38 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class Game{
-    private Lock lock=new ReentrantLock();
-    private boolean pingFlag=false;
-    private boolean pongFlag=false;
+    private static boolean isPingTurn=true;
 
-    public void printPing(){
-
+    public synchronized void printPing(){
+        while(!isPingTurn){
+            try{
+                wait();
+            }catch(Exception e){
+                System.out.println(e);
+            }
+        }
+        System.out.println("Ping");
+        isPingTurn=false;
+        notify();
 
     }
 
-    public void printPong(){
-
+    public synchronized void printPong(){
+        while(isPingTurn){
+            try{
+                wait();
+            }catch(Exception e){
+                System.out.println(e);
+            }
+        }
+        try{
+            Thread.sleep(1000);
+        }catch(Exception e){
+            System.out.println(e);
+        }
+        System.out.println("Pong");
+        isPingTurn=true;
+        notify();
     }
 }
 
@@ -25,14 +46,20 @@ public class PingPong {
         Runnable pingThread=new Runnable() {
             @Override
             public void run() {
-                g.printPing();
+                for(int i=1;i<=5;i++){
+                    g.printPing();
+
+                }
             }
         };
 
         Runnable pongThread=new Runnable() {
             @Override
             public void run() {
-                g.printPong();
+                for(int i=1;i<=5;i++){
+                    g.printPong();
+
+                }
             }
         };
 

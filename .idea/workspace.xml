@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b477d00-f5dd-4e80-9046-608dfcb26349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Threads/Deadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/RaceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccountTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CallableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CountDownLatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CountDownLatchExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CyclicBarrierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/ExecutorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/ManualThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdaThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/Deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Deadlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/PingPong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/RaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/RaceCondition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +45,22 @@
     "Application.Abstraction.executor": "Run",
     "Application.Anonymous.executor": "Run",
     "Application.Arraylistexample.executor": "Run",
+    "Application.CallableExample.executor": "Run",
     "Application.CollectionEcample.executor": "Run",
     "Application.ComparatorExample.executor": "Run",
+    "Application.CountDownLatchExample.executor": "Run",
+    "Application.CountDownLatchExample2.executor": "Run",
+    "Application.CyclicBarrierExample.executor": "Run",
     "Application.Deadlock.executor": "Run",
     "Application.Enums.executor": "Run",
+    "Application.ExecutorExample.executor": "Run",
     "Application.Inheritance.executor": "Run",
     "Application.Interfaces.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MyThread.executor": "Run",
     "Application.OOPS.executor": "Run",
+    "Application.PingPong.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.ReentrantExample.executor": "Run",
     "Application.Test.executor": "Run",
@@ -92,7 +108,9 @@
       <workItem from="1770657695231" duration="896000" />
       <workItem from="1770735013533" duration="6904000" />
       <workItem from="1770814451499" duration="8460000" />
-      <workItem from="1770906809931" duration="6119000" />
+      <workItem from="1770906809931" duration="6230000" />
+      <workItem from="1770995462500" duration="3014000" />
+      <workItem from="1771048039161" duration="18818000" />
     </task>
     <servers />
   </component>

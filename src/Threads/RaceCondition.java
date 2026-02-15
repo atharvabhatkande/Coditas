@@ -5,23 +5,20 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class RaceCondition extends Thread {
 
     static AtomicBoolean flag = new AtomicBoolean(false);
-    static AtomicInteger i = new AtomicInteger(1);
+    private int i=0;
 
     @Override
     public void run() {
-        while (!flag.get() && i.get()<=5) {
-            int current = i.getAndIncrement();
-            if (current > 5) {
-                break;
-            }
+        while (!flag.get()) {
 
-            if (current == 5) {
+            i++;
+            System.out.println(Thread.currentThread().getName() + " Count: " + i);
+            if (i == 5) {
                 if (flag.compareAndSet(false, true)) {
-                    System.out.println(Thread.currentThread().getName() + " Count: " + current + " Winner");
+                    System.out.println(Thread.currentThread().getName() + " Count: " + i + " Winner");
                 }
                 break;
             }
-            System.out.println(Thread.currentThread().getName() + " Count: " + current);
             try {
                 Thread.sleep(100);
             } catch (Exception e) {
