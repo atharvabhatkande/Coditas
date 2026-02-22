@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b477d00-f5dd-4e80-9046-608dfcb26349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AccountTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CallableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CountDownLatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CountDownLatchExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/CyclicBarrierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/ExecutorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecuterFramework/ManualThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdaThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewJavaFeatures/RecordExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewJavaFeatures/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/AbstractionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/Deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Deadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/PingPong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/RaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/RaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExecuterFramework/CyclicBarrierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecuterFramework/CyclicBarrierExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +58,10 @@
     "Application.OOPS.executor": "Run",
     "Application.PingPong.executor": "Run",
     "Application.RaceCondition.executor": "Run",
+    "Application.RecordExample.executor": "Run",
     "Application.ReentrantExample.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Testt.executor": "Run",
     "Application.Trigger.executor": "Run",
     "Application.UnfairLock.executor": "Run",
     "Application.innerclass.executor": "Run",
@@ -85,11 +83,30 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewJavaFeatures.Test" />
+      <module name="Coditas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NewJavaFeatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
       </set>
     </attachedChunks>
   </component>
@@ -110,7 +127,10 @@
       <workItem from="1770814451499" duration="8460000" />
       <workItem from="1770906809931" duration="6230000" />
       <workItem from="1770995462500" duration="3014000" />
-      <workItem from="1771048039161" duration="18818000" />
+      <workItem from="1771048039161" duration="25754000" />
+      <workItem from="1771246975276" duration="2383000" />
+      <workItem from="1771340311322" duration="5563000" />
+      <workItem from="1771510746427" duration="16000" />
     </task>
     <servers />
   </component>
