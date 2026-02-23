@@ -1,8 +1,10 @@
 package Streams;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -64,7 +66,23 @@ public class Main {
         BiFunction<String,String ,Integer> biFunction=(x,y)->(x+y).length();
         System.out.println(biFunction.apply("Atharva","Bhatkande"));
 
-        List<String>
+        List<String> list2=Arrays.asList("Atharva","Deep","Arya");
+        //list2.forEach(x-> System.out.print(x+" "));
 
+        //Method reference
+        list2.forEach(System.out::print);
+
+        //Constructor reference
+        List<String> list3=Arrays.asList("Iphone","Samsung","Vivo");
+       List<MobilePhone>mobilePhoneList= list3.stream().map(MobilePhone::new).collect(Collectors.toList());
+
+    }
+}
+
+class MobilePhone{
+    String name;
+
+    public MobilePhone(String name) {
+        this.name = name;
     }
 }
